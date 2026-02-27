@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "write_to_file|create_file|edit_file",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "./scripts/lint-changed.sh",
+            "timeout": 15,
+            "statusMessage": "Linting changed file..."
+          }
+        ]
+      }
+    ]
+  }
+}
