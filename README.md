@@ -1,6 +1,6 @@
 # APM Sample Package
 
-A sample [APM](https://github.com/microsoft/apm) package demonstrating all primitive types: instructions, prompts, skills, and agents.
+A sample [APM](https://github.com/microsoft/apm) package demonstrating all primitive types: instructions, prompts, skills, agents, and MCP servers.
 
 Use this as a reference when creating your own APM packages.
 
@@ -19,13 +19,17 @@ apm install microsoft/apm-sample-package
 | **Prompt** | `.apm/prompts/accessibility-audit.prompt.md` | Audit code for accessibility issues |
 | **Skill** | `.apm/skills/style-checker/SKILL.md` | Check code against style guidelines |
 | **Agent** | `.apm/agents/design-reviewer.agent.md` | Design review specialist persona |
+| **MCP Server** | `.apm/mcps/github.mcp.json` | GitHub MCP server for repository access |
 
 ## Dependencies
 
-This package declares a transitive dependency on:
+This package declares a transitive APM dependency on:
 - `github/awesome-copilot/skills/review-and-refactor`
 
-APM resolves this automatically when you install.
+And an MCP dependency on:
+- `io.github.github/github-mcp-server`
+
+APM resolves all dependencies automatically when you install.
 
 ## Learn More
 

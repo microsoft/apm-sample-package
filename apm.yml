@@ -1,7 +1,9 @@
 name: apm-sample-package
 version: 1.0.0
-description: Sample APM package demonstrating all primitive types — instructions, prompts, skills, and agents.
+description: Sample APM package demonstrating all primitive types — instructions, prompts, skills, agents, and MCP servers.
 
 dependencies:
   apm:
     - github/awesome-copilot/skills/review-and-refactor
+  mcp:
+    - io.github.github/github-mcp-server
