@@ -1,6 +1,6 @@
 # APM Sample Package
 
-A sample [APM](https://github.com/microsoft/apm) package demonstrating all primitive types: instructions, prompts, skills, and agents.
+A sample [APM](https://microsoft.github.io/apm/) package demonstrating all primitive types: instructions, prompts, skills, and agents.
 
 Use this as a reference when creating your own APM packages.
 
@@ -29,8 +29,8 @@ APM resolves this automatically when you install.
 
 ## Learn More
 
-- [APM Documentation](https://github.com/microsoft/apm)
-- [Creating APM Packages](https://github.com/microsoft/apm/blob/main/docs/getting-started.md)
+- [APM Documentation](https://microsoft.github.io/apm/)
+- [Creating APM Packages](https://microsoft.github.io/apm/getting-started/first-package/)
 
 ## Contributing
 
