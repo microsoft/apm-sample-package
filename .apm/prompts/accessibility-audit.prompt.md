@@ -1,5 +1,5 @@
 ---
-mode: agent
+agent: agent
 description: "Audit code for accessibility compliance"
 ---
 
