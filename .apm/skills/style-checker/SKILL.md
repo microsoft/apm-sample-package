@@ -1,3 +1,8 @@
+---
+name: style-checker
+description: Check code against the project's style guidelines and design system standards. Use this skill whenever reviewing pull requests for style compliance, validating UI components against design-system rules, checking CSS or styling consistency, or auditing semantic HTML, focus states, responsive behavior, touch targets, color tokens, spacing, typography, or CSS class naming.
+---
+
 # Style Checker
 
 Check code against the project's style guidelines and design system standards.
