@@ -1,5 +1,6 @@
 ---
 applyTo: "**"
+description: This file outlines the design standards to be followed across the project.
 ---
 
 # Design Standards
