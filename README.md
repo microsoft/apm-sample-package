@@ -29,8 +29,8 @@ APM resolves this automatically when you install.
 
 ## Learn More
 
-- [APM Documentation](https://github.com/microsoft/apm)
-- [Creating APM Packages](https://github.com/microsoft/apm/blob/main/docs/getting-started.md)
+- [APM Documentation](https://microsoft.github.io/apm/)
+- [Authoring APM Packages](https://microsoft.github.io/apm/producer/)
 
 ## Contributing
 
