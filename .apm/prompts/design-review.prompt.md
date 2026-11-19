@@ -1,5 +1,4 @@
 ---
-mode: agent
 description: "Review code for design system compliance and visual consistency"
 ---
 
